@@ -10,7 +10,7 @@ def map(source_array)
   new_array
 end
 
-def reduce(source_array, starting_value = 0)
+def reduce(source_array, starting_value = nil)
   total = 0
   i = 0
   
