@@ -4,8 +4,8 @@ def map(source_array)
   i = 0
   
   while i < source_array.length do
-  map(source_array){ |x| x * -1}
-  i += 1
+    map(source_array){ |x| x * -1}
+    i += 1
   end
 end
 
