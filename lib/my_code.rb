@@ -7,6 +7,7 @@ def map(source_array)
     map(source_array){ |x| x * -1}
     i += 1
   end
+  new_array
 end
 
 def reduce(source_array, starting_value = 0)
